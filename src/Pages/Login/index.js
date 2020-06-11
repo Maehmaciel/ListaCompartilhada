@@ -1,7 +1,7 @@
 import React from 'react';
 import {Container, Card, Title, Input, Button, Form} from './styles'
 
-function Home() {
+function Login() {
   return (
     <Container>
         <Card>
@@ -17,4 +17,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Login;
