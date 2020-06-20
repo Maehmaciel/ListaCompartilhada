@@ -5,7 +5,7 @@ function Lista() {
 	return (
 		<Container>
 			<div className="dropdown">
-				<button onclick="myFunction()" className="dropbtn">Dropdown</button>
+				<button className="dropbtn">Dropdown</button>
 				<div className="dropdown-content">
 					<ul>
 						<li>
@@ -15,10 +15,10 @@ function Lista() {
 							Item 2
 						</li>
 					</ul>
-					<a>Editar</a>
+					<a href="#">Editar</a>
 				</div>
 			</div>
-		</Container>
+		</Container >
 	);
 }
 
